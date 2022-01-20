@@ -1,0 +1,40 @@
+.blogEntry {
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: #4b0202;
+  border: 5px solid rgb(34, 34, 34);
+  border-radius: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+body {
+  background-image: linear-gradient(#3e2525, black);
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: lightgrey;
+}
+h1 {
+  text-align: center;
+  text-shadow: 0px 0px 2px whitesmoke;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+  text-shadow: 0px 0px 2px whitesmoke;
+}
+.date {
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 0px 0px 2px whitesmoke;
+}
+img {
+  width: 20%;
+}
+div {
+  text-align: center;
+  margin: 0;
+  display: block;
+}
