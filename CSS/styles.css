@@ -1,4 +1,4 @@
-.blogEntry,ol {
+.blogEntry {
   margin-left: 12%;
   margin-right: 12%;
   background-color: #240a0a;
@@ -45,4 +45,9 @@ h2 {
 }
 iFrame {
   width: 40%;
+}
+ol {
+  display: grid;
+  place-items: center;
+  margin-right: 60px;
 }
