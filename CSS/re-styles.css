@@ -11,31 +11,6 @@ body {
   background-image: linear-gradient(#0f0101, rgb(92, 4, 4), black);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: lightgrey;
-}
-#nav {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  height: 50px;
-  width: 100%;
-}
-#nav ul {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-start: auto;
-  height: 20px;
-}
-#nav a {
-  background-color: rgba(0, 0, 0, 80%);
-  display: block;
-  border: 5px solid rgb(0, 0, 0);
-  font-size: large;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
 }
 #nav a:hover {
   background: rgba(85, 0, 0, 80%);
@@ -46,7 +21,28 @@ h1 {
   font-style: italic;
   font-variant: small-caps;
   text-align: center;
-  text-shadow: 0px 0px 2px rgb(241, 234, 234);
+}
+#logo {
+  width: 20%;
+}
+#image-frame {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+}
+iFrame {
+  width: 40%;
+}
+.main-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  margin-bottom: 50px;
+}
+.date {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .blog-entry {
   margin-left: 12%;
@@ -64,34 +60,9 @@ h1 {
   line-height: 1.5;
   font-size: large;
 }
-#logo {
-  width: 20%;
-}
-#image-frame {
-  display: flex;
-  flex-direction: row;
-  width: 95%;
-  margin: 0 auto;
-}
-iFrame {
-  width: 40%;
-}
-
 h2 {
   text-align: center;
   margin: auto;
   padding-bottom: 25px;
   text-shadow: 0px 0px 2px whitesmoke;
-}
-.date {
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-shadow: 0px 0px 2px whitesmoke;
-}
-
-ol {
-  display: grid;
-  place-items: center;
-  margin-right: 60px;
 }

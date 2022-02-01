@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.no-list-style {
+  list-style: none;
+}
+#nav a:hover {
+  background-color: rgba(0, 100, 0, 90%);
+}
+body {
+  background: darkgreen;
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+h1 {
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+img {
+  width: 50px;
+}
