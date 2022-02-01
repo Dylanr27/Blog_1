@@ -16,7 +16,7 @@ body {
   background: rgba(85, 0, 0, 80%);
 }
 h1 {
-  font-size: 100px;
+  font-size: 5vw;
   margin-top: 3.5%;
   font-style: italic;
   font-variant: small-caps;
@@ -28,7 +28,8 @@ h1 {
 #image-frame {
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 90%;
+  flex: center;
   margin: 0 auto;
 }
 iFrame {
