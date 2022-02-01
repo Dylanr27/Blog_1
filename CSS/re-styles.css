@@ -1,10 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: darkgrey;
+}
 .blogEntry {
   margin-left: 12%;
   margin-right: 12%;
   background-color: #240a0a;
   border: 5px solid rgb(34, 34, 34);
   border-style: double;
-  border-radius: 40px;
+  border-radius: 0px 40px 0px 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
@@ -20,8 +26,11 @@ body {
   color: lightgrey;
 }
 h1 {
+  margin-top: 3.5%;
+  font-style: italic;
+  font-variant: small-caps;
   text-align: center;
-  text-shadow: 0px 0px 2px whitesmoke;
+  text-shadow: 0px 0px 2px rgb(241, 234, 234);
 }
 h2 {
   text-align: center;
@@ -50,4 +59,32 @@ ol {
   display: grid;
   place-items: center;
   margin-right: 60px;
+}
+#nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+#nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-start: auto;
+  height: 20px;
+}
+#nav a {
+  background-color: rgba(0, 0, 0, 80%);
+  display: block;
+  border: 5px solid rgb(0, 0, 0);
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+#nav a:hover {
+  background: rgba(85, 0, 0, 80%);
 }
