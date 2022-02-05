@@ -37,33 +37,32 @@ iFrame {
 }
 .main-container {
   display: grid;
-  grid-template-rows: auto auto auto auto;
-  margin-bottom: 50px;
+  grid-template-columns: 20% auto;
+  margin-bottom: 0 auto;
 }
 .date {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.blog-entry {
-  margin-left: 12%;
-  margin-right: 12%;
+#blog-posts {
+  grid-column: 2;
+}
+#blog-posts img {
+  width: 100%;
+}
+#blog-posts li {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 80%;
+  padding: 10px;
+  gap: 10px;
   background-color: #240a0a;
   border: 5px solid rgb(7, 7, 7);
   border-style: solid;
   border-radius: 40px 0px 40px 0px;
   box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.8);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 20px;
   text-indent: 3%;
   line-height: 1.5;
-  font-size: large;
-}
-h2 {
-  text-align: center;
-  margin: auto;
-  padding-bottom: 25px;
-  text-shadow: 0px 0px 2px whitesmoke;
+  font-size: x-large;
 }
