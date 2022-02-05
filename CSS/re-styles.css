@@ -30,7 +30,7 @@ h1 {
   flex-direction: row;
   width: 90%;
   flex: center;
-  margin: 0 auto;
+  margin: 0 auto 15px;
 }
 iFrame {
   width: 40%;
@@ -42,21 +42,24 @@ iFrame {
 }
 .date {
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 #blog-posts {
   grid-column: 2;
 }
+#blog-posts * {
+  border: 5px solid black;
+  gap: 10px;
+}
 #blog-posts img {
+  position: sticky;
+  margin-top: 10px;
   width: 100%;
 }
 #blog-posts li {
   display: grid;
   grid-template-columns: 30% 70%;
   width: 80%;
-  padding: 10px;
-  gap: 10px;
+  height: 300px;
   background-color: #240a0a;
   border: 5px solid rgb(7, 7, 7);
   border-style: solid;
@@ -65,4 +68,11 @@ iFrame {
   text-indent: 3%;
   line-height: 1.5;
   font-size: x-large;
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+#blog-posts li:hover {
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: 1px;
 }
