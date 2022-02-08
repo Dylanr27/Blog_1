@@ -1,14 +1,11 @@
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
   color: darkgrey;
 }
 .no-list-style {
   list-style: none;
 }
 body {
-  background-image: linear-gradient(#0f0101, rgb(92, 4, 4), black);
+  background-image: linear-gradient(#000000, rgb(80, 1, 1), black);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -18,10 +15,11 @@ body {
 h1 {
   font-family: serif;
   font-size: 5vw;
-  margin-top: 3.5%;
   font-style: italic;
   font-variant: small-caps;
   text-align: center;
+  margin-left: 13%;
+  margin-bottom: 10px;
 }
 #logo {
   width: 20%;
@@ -34,7 +32,7 @@ h1 {
   margin: 0 auto 15px;
 }
 iFrame {
-  border-radius: 15%;
+  border-radius: 40px 0px 40px 0px;
   padding: 10px 10px 10px 0px;
   width: 100%;
   height: 100%;
@@ -42,6 +40,7 @@ iFrame {
 .main-container {
   display: grid;
   grid-template-columns: 10% 100%;
+  margin-left: 15%;
   margin-bottom: 0 auto;
 }
 .date {
@@ -53,7 +52,7 @@ iFrame {
   grid-column: 2;
 }
 #blog-posts * {
-  gap: 10px;
+  gap: 13px;
 }
 #blog-posts hr {
   height: 2.5px;
@@ -62,7 +61,8 @@ iFrame {
 }
 #blog-posts img {
   grid-column: 1 / span 1;
-  border-radius: 15%;
+  border-radius: 40px 0px 40px 0px;
+  margin-top: 8px;
   padding: 10px 10px 10px 0px;
   width: 100%;
 }
@@ -71,21 +71,25 @@ iFrame {
   display: grid;
   grid-template-columns: 30% 70%;
   width: 80%;
-  height: 425px;
+  height: 400px;
   background-color: #240a0a;
   border: 5px solid rgb(7, 7, 7);
   border-style: solid;
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px 0px 40px 0px;
   box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.8);
   text-indent: 3%;
   line-height: 1.5;
   font-size: x-large;
   overflow: hidden;
-  margin-bottom: 2%;
+  margin-bottom: 2.5%;
   padding-right: 30px;
 }
 #blog-posts li:hover {
   overflow: scroll;
   overflow-x: hidden;
   scrollbar-width: 1px;
+}
+.blog-content {
+  border-left: 5px outset rgb(10, 0, 0);
+  padding-left: 15px;
 }
