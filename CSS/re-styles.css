@@ -81,7 +81,7 @@ iFrame {
   line-height: 1.5;
   font-size: x-large;
   overflow: hidden;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   padding-right: 30px;
 }
 #blog-posts li:hover {
