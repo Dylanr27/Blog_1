@@ -3,23 +3,31 @@
   margin: 0px;
   box-sizing: border-box;
 }
+.no-list-style {
+  list-style: none;
+}
 #nav {
   font-family: serif;
+  overflow: hidden;
   position: fixed;
   top: 0;
-  height: 100vh;
-  width: 15%;
+  height: 8.8ch;
+  width: 100%;
   background-color: rgba(0, 0, 0, 70%);
   margin: 0 auto;
 }
 #nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-start: auto;
+  height: 20px;
   width: 100%;
 }
 #nav a {
   background-color: rgba(0, 0, 0, 55%);
   display: block;
-  border: 5px solid rgb(0, 0, 0);
-  font-size: 1.6vw;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 2ch;
   font-weight: bold;
   font-style: italic;
   text-decoration: none;
@@ -28,4 +36,7 @@
 }
 html {
   scroll-behavior: smooth;
+}
+.title {
+  margin-top: 45px;
 }

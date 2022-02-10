@@ -1,0 +1,64 @@
+* {
+  color: rgba(255, 255, 255, 0.795);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav a:hover {
+  background-color: rgba(48, 72, 139, 0.7);
+}
+body {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/09/01/432997/577a9f8a9e4894a35c308d99f8f1bb37.jpg);
+  background-color: rgba(69, 196, 69);
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+h1 {
+  grid-column: 2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 5vw;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  text-shadow: 0px 0px 5px rgb(139, 138, 138);
+  margin-top: 1.5ch;
+}
+#main-container {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  align-items: center;
+  height: 100vh;
+  margin: 3.5%;
+  gap: 2ch;
+}
+.entry-container {
+  height: 200px;
+  border: 10px solid rgba(255, 255, 255, 0.829);
+  border-style: ridge;
+  background-color: rgba(0, 10, 0, 85%);
+  padding: 5px;
+  display: grid;
+  grid-template-columns: minmax(15ch, 30ch) minmax(45ch, 75ch);
+  gap: 2px;
+  margin-bottom: 3.5%;
+  overflow: hidden;
+}
+.entry-container > div {
+  padding: 15px;
+  text-align: center;
+}
+.entry-container p {
+  line-height: 1.5;
+  letter-spacing: 0.1ch;
+}
+.blog-image {
+  border: 2px solid white;
+  width: 95%;
+}
+h2 {
+  font-size: x-large;
+  margin-bottom: 1%;
+}
+.entry-container:hover {
+  overflow: scroll;
+  overflow-x: hidden;
+}
