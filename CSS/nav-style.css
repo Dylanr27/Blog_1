@@ -3,6 +3,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
+::selection {
+  color: silver;
+  background-color: rgb(85, 2, 85);
+}
 .no-list-style {
   list-style: none;
 }
