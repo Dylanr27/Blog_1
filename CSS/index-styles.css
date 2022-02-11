@@ -20,7 +20,7 @@
   color: silver;
 }
 #nav a:hover {
-  background-color: rgba(48, 67, 97, 50%);
+  background-color: rgba(131, 3, 3, 0.3);
 }
 body {
   display: grid;
