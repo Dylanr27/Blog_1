@@ -1,6 +1,5 @@
 body {
-  background-image: url(/Images/image-asset.jpeg);
+  background-image: url(Images/image-asset.jpeg);
   background-position: fixed;
-  background-color: red;
   background-size: cover;
 }
