@@ -55,8 +55,8 @@ img {
   gap: 12ch;
 }
 .blog-links img {
-  width: 7rem;
-  height: 7rem;
+  width: 8rem;
+  height: 8rem;
 }
 .blog-links img:hover {
   mix-blend-mode: hard-light;

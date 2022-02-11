@@ -1,0 +1,11 @@
+body {
+  background-image: url(../Images/black-sand.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#nav a:hover {
+  background-color: rgba(120, 3, 131, 0.3);
+}
+h1 {
+  text-shadow: 0px 0px 5px white;
+}

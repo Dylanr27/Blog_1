@@ -1,5 +1,5 @@
 * {
-  color: darkgrey;
+  color: silver;
 }
 body {
   background-image: linear-gradient(#080808, rgb(90, 19, 19), rgb(8, 8, 8));
@@ -16,6 +16,7 @@ h1 {
   font-style: italic;
   font-variant: small-caps;
   text-align: center;
+  text-shadow: 0px 0px 5px silver;
   margin-top: 2ch;
   margin-bottom: 10px;
 }
