@@ -178,9 +178,9 @@
         <hr />
         <p>
           Its the littlest things that cause the biggest headaches! Spent about 30 minutes trying to figure out how come my Debug.Log() message wasnt coming 
-          up when the player hit his head on the ground. I tired adding switching the ground to a trigger and the player fell into the abyss. Then i tried 
-          adding another edge collider to the ground and making that a trigger, but then it was going off anytime the player hit the groundf at all. I finally 
-          solved the issue by adding a second circle collider to the head of the player, and moved the component above the one with the collison collider on it, 
+          up when the player hit his head on the ground. I tired switching the ground to a trigger and the player fell into the abyss. Then i tried 
+          adding another edge collider to the ground and making that a trigger, but then it was going off anytime the player hit the ground at all. I finally 
+          solved the issue by adding a second circle collider and making it a trigger then added it to the head of the player, and moved the component above the one with the collison collider on it, 
           so that the trigger would activate before the collsion stopped it... and boom it worked!
         </p>
       </div>
