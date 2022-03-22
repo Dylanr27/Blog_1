@@ -22,7 +22,7 @@
 }
 #nav ul {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   grid-column-start: auto;
   height: 20px;
   width: 100%;

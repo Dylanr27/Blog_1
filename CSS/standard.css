@@ -34,7 +34,7 @@ h1 {
   text-indent: 3%;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(15ch, 30ch) minmax(45ch, 75ch);
+  grid-template-columns: minmax(15ch, 30ch) minmax(55ch, 85ch);
   gap: 2px;
   margin-bottom: 3.5%;
   overflow: hidden;
